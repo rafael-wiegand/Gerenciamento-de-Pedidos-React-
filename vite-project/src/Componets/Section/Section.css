@@ -12,13 +12,12 @@ html, body {
     display: flex;
     justify-content: center; 
     align-items: center;     
-    //padding: 10rem; 
-   
     box-sizing: border-box; 
 }
 
 /* Alinhamento em coluna com espaçamento */
-.section form {
+.section form,
+.section .lista-tarefas {
     display: flex;
     flex-direction: column;
     gap: 1rem; /* ADICIONADO: espaço entre os elementos */
@@ -29,13 +28,19 @@ html, body {
     border-radius: 8px;
 }
 
+.tarefa-item h3::first-letter,
+.tarefa-item p::first-letter {
+  text-transform: uppercase;
+}
+
 /* Input e textarea padronizados */
 .section input,
-.section textarea {
+.section textarea,
+.section .lista-tarefas {
   padding: 1rem 3rem;
   border: 2px solid var(--cor-primaria);
   border-radius: 4px;
-  
+  //text-transform: uppercase;
   background: var(--cor-fundo-escuro);
   color: var(--cor-branca);
   text-align: left; 
@@ -66,4 +71,7 @@ html, body {
 
 .section button:hover {
   background: var(--cor-secundaria);
+}
+.section .lista-tarefas{
+
 }
