@@ -25,7 +25,7 @@ bash
 
 npm install
 
-4. Rodar com Vite
+5. Rodar com Vite
 
 bash
 
