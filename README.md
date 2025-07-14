@@ -15,6 +15,7 @@ VS Code
 bash
 
 git clone https://github.com/rafael-wiegand/Gerenciamento-de-Pedidos-React-.git
+
 cd Gerenciamento-de-Pedidos-React-
 
 code .
