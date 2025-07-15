@@ -34,4 +34,4 @@ npm run dev
 
 Local:   http://localhost:5173/
 
-Abra o navegador nesse endereço (http://localhost:5173/).
+Link navegador ([http://localhost:5173/](https://gerenciamento-de-pedidos-react-9c9a.vercel.app/)).
